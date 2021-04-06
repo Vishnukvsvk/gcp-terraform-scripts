@@ -25,8 +25,8 @@ resource "google_service_account" "default" {
   display_name = "Service Account"
 }
 
-resource "google_container_cluster" "mycluster1" {
-  name                     = "my-gke-cluster"
+resource "google_container_cluster" "mycluster2" {
+  name                     = "my-gke-cluster-2"
   location                 = "us-central1"
   remove_default_node_pool = true
   initial_node_count       = 1
