@@ -36,7 +36,7 @@ resource "google_container_cluster" "mycluster2" {
 resource "google_container_node_pool" "np1" {
   name       = "node-pool-1"
   location   = "us-central1"
-  cluster    = google_container_cluster.mycluster1.name
+  cluster    = google_container_cluster.mycluster2.name
   node_count = 1 //per zone
 
 
