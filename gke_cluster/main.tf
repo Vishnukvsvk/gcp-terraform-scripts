@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("C:/Users/VISHNU/Documents/gcp_service_cred/terraformpractical-42041d202ffe.json")
+  //credentials = file("C:/Users/VISHNU/Documents/gcp_service_cred/terraformpractical-42041d202ffe.json")
   project     = "terraformpractical"
   //region      = "us-west1"
 
